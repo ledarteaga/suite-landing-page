@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply h-12 w-[182px] rounded-md bg-gradient-to-br from-darkblue  to-darkblue text-sm  font-bold capitalize text-white transition-all hover:from-purple hover:via-fuchsia-600 hover:to-orange lg:h-[61px] lg:w-64;
+  }
+
+  .btn-secondary {
+    @apply h-12 w-[182px] rounded-md border border-darkblue bg-transparent text-sm font-bold capitalize text-darkblue transition-all hover:bg-darkblue hover:text-white lg:h-[61px] lg:w-64;
+  }
+}
+
+@layer base {
+  .heading-xl {
+    @apply text-[38px] font-bold
+        leading-[44px]
+        text-slate-800
+        lg:text-7xl
+        lg:leading-[78px];
+  }
+
+  .heading-lg {
+    @apply text-5xl
+        font-normal
+        leading-[56px]
+        text-slate-800;
+  }
+
+  .heading-md {
+    @apply text-lg
+        font-bold
+        uppercase
+        leading-loose
+        text-slate-800;
+  }
+
+  .heading-sm {
+    @apply text-base
+        font-normal
+        uppercase
+        leading-relaxed
+        tracking-[2.50px]
+        text-slate-600;
+  }
+
+  .text-quote {
+    @apply text-xl
+        font-normal
+        leading-[35px]
+        tracking-tight
+        text-slate-600;
+  }
+
+  .text-body {
+    @apply text-lg
+        font-normal
+        leading-loose
+        tracking-tight
+        text-slate-600;
+  }
+
+  .text-footer {
+    @apply text-[15px]
+        font-normal
+        leading-loose
+        text-slate-600;
+  }
+}
+
+@layer utilities {
+  .debug-border {
+    @apply border-2 border-green-500;
+  }
+}

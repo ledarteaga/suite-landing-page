@@ -1,0 +1,4 @@
+<template>
+  <CustomHero />
+  <CustomTestimonial />
+</template>

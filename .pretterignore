@@ -1,0 +1,4 @@
+# Ignore artifacts:
+output
+node_modules
+public
