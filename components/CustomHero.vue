@@ -4,7 +4,7 @@
   >
     <div class="relative flex h-full w-full justify-end lg:w-5/6">
       <span
-        class="debug-border bottom-0 left-0 top-8 m-auto flex w-full flex-col flex-wrap justify-center md:w-5/6 lg:absolute"
+        class="bottom-0 left-0 top-8 m-auto flex w-full flex-col flex-wrap justify-center lg:absolute"
       >
         <h1
           class="heading-xl lg:heading-xl mb-10 line-clamp-2 overflow-visible"

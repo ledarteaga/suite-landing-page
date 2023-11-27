@@ -8,7 +8,7 @@
       class="absolute inset-x-0 m-auto mt-10 flex h-full flex-col justify-center rounded-lg bg-darkblue md:mx-[36px] lg:mx-[166px] lg:flex-row"
     >
       <div
-        class="avatar-container relative h-full w-full after:overflow-visible lg:w-5/12"
+        class="avatar-container relative h-full w-full after:overflow-visible md:w-5/12"
       >
         <img
           src="../assets/image-jeremy-large@2x.webp"
